@@ -19,7 +19,7 @@ $(document).ready(function() { //wait for document to load
 	});
 
 	//global variables
-	var url = "https://search.cdc.gov/srch/internet_clia/select?q="; //solr url
+	var url = "[SOLR API URL]/select?q="; //solr url
 	var rows = "&rows=50"; //limit results to 50 at a time
 	var start = 0; //initial first result
 	var end = 50; //initial end result
